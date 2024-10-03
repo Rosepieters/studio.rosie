@@ -1,0 +1,43 @@
+.musling {
+    max-width: 15%;
+    max-height: 15%;
+    margin: auto; /* Til at centrere vandret */
+}
+
+.grid_1_1_1{
+    padding-top: 25px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ height: fit-content;
+ width: fit-content;
+ gap: 4%;
+ margin: 50px;
+}
+
+.grid_1_1_1 img {
+    width: 100%; /* Sørg for at billedet fylder hele cellen */
+    height: 100%; /* Sørg for at billedet fylder hele cellen */
+    object-fit: cover; /* Skalér billedet, så det passer til containeren uden at miste proportioner */
+}
+
+@media (max-width: 800px) {  
+    .grid_1_1_1{
+        padding-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: fit-content;
+        width: fit-content;
+        gap: 4%;
+        margin: 50px;
+        padding-bottom: 77px;
+     }
+
+     .musling{
+        max-width: 35%;
+        max-height: 35%;
+        margin: auto; /* Til at centrere vandret */  
+     }
+      }
+
+
+      

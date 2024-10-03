@@ -1,0 +1,73 @@
+.musling {
+    max-width: 15%;
+    max-height: 15%;
+    margin: auto; /* Til at centrere vandret */
+}
+
+.grid_1_1{
+    display: grid; 
+    margin-top: 20px;
+    padding-bottom: 65px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 60px;
+    padding-left: 50px;  
+}
+
+
+.billede_rose{
+    padding-left: 10%;
+    padding-right: 10%;
+    transform: scale(0.8); 
+}
+
+.tekst_rose{
+    padding-top: 130px;
+    padding-left: 65px;
+}
+
+.rose_overskrift{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 34px;
+}
+
+@media (max-width: 800px) {
+          
+.grid_1_1{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0; 
+    padding-right: 15%;
+    gap: 0;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+.musling{
+    max-width: 35%;
+    max-height: 35%;
+    margin: auto; /* Til at centrere vandret */  
+}
+
+.billede_rose{
+    padding-left: 30%;
+    padding-right: 2%;
+}
+
+.rose_overskrift{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+
+.tekst_rose{
+    order: 2;
+    padding-top: 0;
+}
+
+.tekst_rose p{
+font-size: 15px;
+}
+}

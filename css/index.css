@@ -1,0 +1,26 @@
+.musling {
+    max-width: 32%;
+    max-height: 32%;
+    margin: auto; /* Til at centrere vandret */
+    padding-top: 3%; /* Juster denne værdi for at centrere lodret */
+}
+
+.world{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (max-width: 800px) {  
+.musling {
+    max-width: 84%;
+    max-height: 84%;
+    margin: auto; /* Til at centrere vandret */
+    padding-top: 3%; /* Juster denne værdi for at centrere lodret */
+}
+.world{
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 2%;
+}
+}
